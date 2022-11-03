@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>survey Form</title>
+    <h1 id="title">This is a Survey Form</h1>
+    <p><strong>This is the description for Survey</strong></p>
+</head>
+<body>
+    
+<main>
+    <form id="survey-form">
+    <fieldset>
+        <label for="name-label">Enter your name: <input id="name-label" name="name" type="text" placeholder="david"  required></label>
+        <label for="email-label">Enter your email: <input id="email-label" name="email" type="email" placeholder="example$mail.com"  required></label>
+        <label for="age-label">Your age: <input id="age-label" name="age-label" type="number" placeholder="33" min="13" max="80"></label>
+        <label for="dropdown">What is your profession?
+        <select id="dropdown">
+            <option>Student</option>
+            <option>teacher</option>
+            <option>programmer</option>
+        </select>
+        </label>
+    </fieldset>
+    <fieldset>
+        <label>Would you recommend us to your fiends?</label>
+        <label for="Sure"><input type="radio" name="happy" id="Sure" class="inline"> Sure</label>
+        <label for="notSure"><input type="radio" name="happy" id="notSure" class="inline"> not Sure</label>
+        <label for="not"><input type="radio" name="happy" id="not" class="inline" > of course not</label>
+    </fieldset>
+    <fieldset>
+        <label>What you are looking to learn here?</label>
+        <label value="1" name="front-end" for="front-end"><input id="front-end" type="checkbox" name="front-end" class="inline">front-end </label>
+        <label value="2" name="back-end" for="back-end"><input id="back-end" type="checkbox" name="back-end" class="inline" class="inline">back-end </label>
+        <label value="3" name="AI" for="AI"><input id="AI" type="checkbox" name="AI" class="inline">AI </label>
+        <label value="4" name="cloudComputing" for="cloudComputing"><input id="cloudComputing" type="checkbox" name="cloudComputing" class="inline">cloud-Computing</label>
+        <label value="5" name="graphic" for="graphic"><input id="graphic" type="checkbox" name="graphic" class="inline">graphic</label>
+    </fieldset>
+    <fieldset>
+        <label for="bio">Anything else you want to add?</label>
+        <textarea id="bio" name="bio" cols="30" rows="4" placeholder="I would like to ask about...."></textarea>
+    </fieldset>
+    <button><input type="submit" value="Submit"></button>
+    
+    </form>
+</main>
+</body>
+</html>
