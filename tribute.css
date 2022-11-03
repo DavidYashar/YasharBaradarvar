@@ -1,0 +1,55 @@
+main {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+img{
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 100%;
+    height:auto;
+    display:block;
+    justify-items: center;
+   
+}
+
+
+
+li {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-indent: 5px;
+    text-align: justify;
+    max-width: 1000px;
+    height:auto;
+  
+}
+figcaption {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-indent: 5px;
+    text-align: justify;
+    max-width: 1000px;
+    height:auto;
+}
+#tribute-info {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-indent: 5px;
+    text-align: justify;
+    max-width: 1000px;
+    height:auto;
+}
+h3, h4 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-indent: 5px;
+    text-align: justify;
+    max-width: 1000px;
+    height:auto;
+}
+
