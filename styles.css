@@ -1,102 +1,258 @@
-#navbar {
-    position: fixed;
-    min-width: 220px;
-    top: 0px;
-    left: 0px;
-    width: 250px;
-    height: 100%;
-    border-right: solid;
-    border-color: rgba(0, 22, 22, 0.4);
-    padding-left: 1px;
-    
-    
-}
-p {
-    
-        display: block;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-
-}
-header {
-    color: black;
-    margin: 10px;
-    text-align: center;
-    font-size: 1.8em;
-    font-weight: thin;
-}
-nav {
-    display: block;
-    width: 120px;
-}
-
-#navbar li {
-    color: #4d4e53;
-    border-top: 1px solid;
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-top-color: initial;
-    list-style: none;
-    list-style-position: initial;
-    list-style-image: initial;
-    list-style-type: none;
-    position: relative;
-    width: 80%;
-
+:root {
+    --main-white: #f0f0f0;
+    --main-red: #be3144;
+    --main-blue: #45567d;
+    --main-gray: #303841;
    
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+@media (max-width: 56.25em){
+    html{
+        font-size: 58%;
+    }
+}
+html {
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+}
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.4;
+    
+    background: linear-gradient(60deg, #003f7d45 , #001c45, #4d0000);
+}
+
+
+.nav {
+    display:grid;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    top: 5;
+    left: 0;
+    height: 60px;
+    background: var(--main-red);
+    box-shadow: 0 2px 0 rgb(0 0 0 /40%);
+}
+.nav-list {
+    display: block;
+    margin-right: 2rem;
+    margin-top: 0.6rem;
+    
+}
+.nav-list:hover{
+    color:black;
+    animation-name: up;
+    position:relative;
+    animation-duration: 1s;
+}
+ul {
+    list-style: none;
+
+}
+.nav li {
+    display:inline;
+    float: left;
 }
 li {
     display: list-item;
     text-align: -webkit-match-parent;
-   
 }
-#navbar a {
+.nav-list a {
     display: block;
-    padding: 10px 30px;
-    color: #030303;
+    font-size: 2.2rem;
+    padding: 2rem;
+}
+a {
     text-decoration: none;
-    cursor: pointer;
-    
+    color: var(--main-white);
 }
-section p {
-    
-        color: #4d4e53;
-        margin: 15px;
-        font-size: 0.96em;
-   
-}
-section {
-    display: block;
-}
-body {
-    min-width: 290px;
-    color: #4d4e53;
-    background-color: #ffffff;
-    font-family: 'Open Sans', Arial, sans-serif;
-    line-height: 1.5;
-     padding-left: 300px; 
-    
-}
-#main-doc header {
-    text-align: left;
-}
-code {
-    display: block;
-    text-align: left;
-    white-space: pre-line;
-    position: relative;
-    word-break: normal;
-    word-wrap: normal;
-    line-height: 2;
-    background-color: #f7f7f7;
-    padding: 15px;
-    margin: 10px;
-    border-radius: 5px;
+@media (max-width: 30.625em){
+    #project {
+        padding: 6rem 1rem;
+        padding-top: 6rem;
+        padding-right: 1rem;
+        padding-bottom: 6rem;
+        padding-left: 1rem;
+    }
 }
 
-    @media screen and (min-width: 480px) {
-        #navbar {width: 200px; float: left;}
-        #main {margin-left: 216px;}
-      }
+#project {
+    margin: 60px;
+    width: 1500px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.project-tile {
+    justify-items: center;
+    display:inline-table;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: auto;
+    margin-right:auto;
+    width:max-content;
+    max-width: 100%;
+    width: 640px;
+    height: 400px;
+    align-items: center;
+    border: 3px solid var(--main-red);
+   
+}
+#welcome-section{
+    text-align: center;
+    padding: 100px;
+    justify-content:end;
+    align-items: center;
+    display: flexbox;
+    text-decoration: #303841;
+    height:1000px;
+    text-justify: newspaper;
+    
+}
+
+#welcome-section  p {
+   text-shadow: 1px 1px #be3144;
+   color: var(--main-white);
+   align-items: center;
+   display: block;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#welcome-section h1 {
+    padding-top: 200px;
+    color: var(--main-white);
+    align-items: center;
+    display: block;
+    font-size: 100px;
+    text-shadow: 1.5px 1.5px #be3144;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .image {
+    text-align: center;
+ }
+ #contacts h1 {
+    color: antiquewhite;
+    font-size: 80px;
+    font-weight: bolder;
+    text-shadow: 1.5px 1.5px #530510;
+ }
+ #contacts p {
+    color: rgb(251, 196, 124);
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 1px 1px #94071a;
+ }
+#contacts {
+    padding-top: 200px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+}
+#footer img {
+     width: 30px;
+     height: 30px;
+     justify-content: end;
+}
+
+#footer {
+    text-shadow: 1px 0 0 #ff7c7c;
+    display: inline;
+    font-weight: lighter;
+}
+.logo {
+    text-align: center;
+}
+.name-logo {
+    text-align: center;
+    padding-right: 40px;
+}
+hr {
+   background-color: #0a0000;
+   box-sizing: var(--main-red);
+}
+#contacts div {
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 40px;
+    margin: 30px;
+    font-size: larger;
+    font-weight: bolder;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    
+    
+}
+/* @keyframes move {
+    0% {
+        up: 5px;
+    }
+    50% {
+        up: 10px;
+    }
+    100% {
+        up: 15px;
+    }
+} */
+  
+  .fa.fa-facebook:hover {
+      position:relative;
+      left: 10px;
+      color: blue ;
+  }
+  .fa.fa-github:hover {
+    position:relative;
+    left: 10px;
+    color: rgb(0, 0, 0) ;
+}
+.fa.fa-linkedin:hover {
+      position: relative;
+   
+      left: 10px;
+    color: rgb(9, 66, 252) ;
+}
+footer {
+    display: block;
+    width:max-content;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    padding: 5px 0;
+
+}
+  @keyframes up {
+    0% {
+        top: 0px;
+    }
+    25% {
+        top: 5px;
+    }
+    50% {
+        top: 10px;
+    }
+    75% {
+        top: 5px;
+    }
+    100% {
+        top: 0px;
+    }
+  }
