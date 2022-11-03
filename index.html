@@ -5,51 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Personal Portfolio WebPage</title>
+    <title>Product Landing Page</title>
 </head>
 <body>
-    <nav id="navbar" class="nav">
-     <ul>
-        <li><a class="nav-list" href="#projects">Works</a></li>
-        <li><a class="nav-list" href="#contacts">contacts</a></li>
-        <li><a class="nav-list" href="#welcome-section">welcome</a></li>
-     </ul>
-    </nav >
-    <section id="welcome-section">
-    <h1 >Hey I am Mimic</h1>
-    <p>a web developer</p>
+    <header id="header">
+        <img id="header-img" src="https://www.freepnglogos.com/uploads/music-logo-round-play-png-29.png" width="60" height="60">
+        <nav id="nav-bar">
+            <ul>
+                <a href="#how-it-works"><li class="nav-link" href="#how-it-works">How It Works</a></li>
+                <a href="#pricing"><li class="nav-link" href="#pricing">Pricing</a></li>
+                <a href="#features"><li class="nav-link" href="#features">Features</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container"></div>
+    <section class="email">
+        <h2 id="form-head">A unique experience for your ears</h2>
+        <form id="form" width="400" action="https://www.freecodecamp.com/email-submit">
+            <input id="email" name="email" type="email" placeholder="Enter your email" required><br>
+            <input id="submit" type="submit" value="submit Now!!">
+        </form>
+    </section >
+        <section id="features">
+            <h3>Premium Materials</h3>
+            <p>Our trombones use the shiniest brass which is sourced locally.
+                 This will increase the longevity of your purchase.</p>
+
+            <h3>Fast Shipping</h3>
+            <p>We make sure you recieve your trombone as soon as we have finished making it.
+                 We also provide free returns if you are not satisfied.</p>
+            
+            <h3>Quality Assurance</h3>
+            <p>For every purchase you make, we will ensure there are no damages
+                 or faults and we will check and test the pitch of your instrument.</p>
+        </section>
+    
+    <section id="how-it-works">
+    <iframe id="video" src="https://www.youtube.com/embed/oPN4DWHuqlE" width="600" height="300" ></iframe>
+     <figcaption>A thriller of our work</figcaption>
     </section>
-    <div class="image">
-    <section id="projects">
-        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form" target="_blank"><img   class="project-tile" src="https://w3layouts.com/wp-content/uploads/2018/09/customer_survey_form_full_Free06-09-2018_1815966668.jpg"> </a>
-        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page" target="_blank"><img  class="project-tile"  src="https://devpractical.com/public/2020/html-css-project-tribute-page.png"></a>
-        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-technical-documentation-page-project/build-a-technical-documentation-page" target="_blank"><img  class="project-tile" src="https://themes.3rdwavemedia.com/wp-content/uploads/2019/07/coderdocs-documentation-template-bootstrap.jpg"></a>
-        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-product-landing-page-project/build-a-product-landing-page" target="_blank"><img   class="project-tile" src="https://www.creativefabrica.com/wp-content/uploads/2021/03/01/Single-Product-Landing-Page-Template-Graphics-9069632-1-1-580x387.jpg"></a>
+    <section id="pricing">
+    <div class="first">
+        <h3>$1000</h3>
+            <ol>
+                <li>Great surround sound</li>
+                <li> 3 hours live music and inter section</li>
+                <li> 4 sections</li>
+            </ol>
+        <button class="btns">purchase</button>
+    </div>
+    <div class="first">
+        <h3>$2000</h3>
+            <ol>
+                <li>Great sorrounded sound</li>
+                <li> 5 hours live music & intersections</li>
+                <li> 7 sections</li>
+            </ol>
+        <button class="btns">purchase</button>
+    </div>
+    <div class="first">
+        <h3>$3000</h3>
+            <ol>
+                <li>Great sorrounded sound</li>
+                <li>7 hours live music & intersections</li>
+                <li>10 sections</li>
+            </ol>
+       <button class="btns">purchase</button>
     </div>
     </section>
-    <section id="contacts">
-        <h1>Lets work together</h1>
-        <p>How you like your coffee?</p>
-       
-        
-            <div id="profile-link"><a href="https://www.facebook.com/Yashar.Baradar/"  class="fa fa-facebook"></a></div>
-            <div id="profile-link"><a href="https://github.com/DavidYashar" class="fa fa-github" alt="GitHub"></a></div>
-            <div id="profile-link"><a href="https://www.linkedin.com/in/yashar-baradarvar-540026157/" class="fa fa-linkedin"  alt="Linkedin"></a></div>
-        </ul>
-    </section>
-    <hr>
-    <hr>
-    <footer id="footer">
-        <ul>
-       <li><h5>This is just a fake portfolio for my exam</h5></li>
-        <li><div class="name-logo">
-       <h5>Thanks Free code camp</h5>
-        </div></li>
-    <li><div class="logo">
-       <a href="https://www.freecodecamp.org/"><img src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/freecodecamp-512.png" target="_blank"></a>
-         </div></li>
-        </ul>
-    </footer>
 </body>
+<hr>
+<hr>
+<div >
+<footer>
+    <ol>
+        <li>Privacy</li>
+        <li>terms</li>
+        <li>contact us</li>
+        <span>2022 Yashar Web All rights reserved</span>
+    </ol>
+</footer>
+</div>
 </html>
