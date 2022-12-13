@@ -1,0 +1,22 @@
+#title{
+   background-color:rgb(35, 2, 2);
+   text-align: center;
+   padding: 20px;
+   font-weight: 500; 
+   color:antiquewhite;
+   
+}
+.box1 h2{
+    float: left;
+}
+.box1 button{
+    float: right;
+}
+.container{
+    margin-top: 50px;
+}
+
+h6{
+    color:crimson;
+    text-align:center;
+}
