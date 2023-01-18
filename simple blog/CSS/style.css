@@ -1,0 +1,543 @@
+body{
+    margin: 20px 30px ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+@media screen and (max-width: 992){
+   body{
+    margin: 20px 30px ;
+   }
+   
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+ul {
+    position:-webkit-sticky;
+    position: fixed;
+    top: 0;
+    width: 97%;
+    
+    z-index: 100;
+    color: rgb(155, 0, 0);
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+@media screen and (max-width: 700px) {
+    ul:not(:last-child){
+        display: grid;
+        grid-template-columns:auto;
+        top: 150px;
+       
+        column-gap: 150px;
+        width: 150px;
+        height: 250px;
+        z-index: 100;
+        
+        
+    }
+}
+
+
+.response{
+    display:hidden;
+}
+@media screen and (max-width: 700px){
+    .response{
+        display:inline-block;
+        cursor: pointer;
+       position: fixed;
+       z-index: 100;
+    }
+    .one , .two, .three{
+     width:30px;
+     height:4px;
+     background-color: brown;
+     margin:4px;
+     padding:2px;
+     transition: 1s;
+    }
+    .trans .one{
+        transform: translate(0, 12px) rotate(-45deg);
+    }
+    .trans .two{
+        opacity:0;
+    }
+    .trans .three{
+        transform: translate(0, -12px) rotate(45deg);
+    }
+    /* header> ul > li{
+        display
+        
+    } */
+}
+/* When the screen size reduces to 700PX */
+
+
+ header> ul > li{
+   
+    float:left;
+    font-size: larger;
+    width: 150px;
+    height: 10px;
+    display: block;
+    border-right: 4px solid rgb(255, 255, 255);
+   margin-right: 20px;
+   padding-top: 10px;
+   padding-right: 20px;
+   padding-left: 10px;
+   margin-top: 0px;
+  
+   padding-bottom: 20px;
+   text-decoration: none;
+}
+
+ @media screen and (max-width: 700px){
+   header> ul > li:not(:last-child){
+        
+        background-color: rgb(129, 133, 129);
+        border: none;
+        border-radius: 10px;
+        padding-top: 10px;
+        opacity: 0.6;
+        float: left;
+        margin-top: 10px;
+        font-size: large;
+        font-weight: 200;
+        width: 90px;
+        height: 30px;
+        margin-top: 20px;
+       margin-left: 0px;
+        z-index: 100;
+       padding-left: 5%;
+       padding-bottom: 0%;
+       margin-bottom: 0%;
+       transition: 1s;
+    }
+ }
+    header> ul > li > a:hover {
+        background: rgb(129, 133, 129);
+        color: rgb(255, 255, 255);
+        margin: 10px;
+        transition: 1s ease-in-out;
+       cursor: pointer;
+       border-radius: 6px;
+    }
+ 
+/* header ul>li> a:hover{
+   background-color: brown;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+} */
+header> ul >li:last-child{
+    border-right: none;
+}
+header> ul > li > a{
+    padding: 20px;
+ 
+}
+header> ul > li > a:hover {
+    background: rgb(49, 24, 24);
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    transition: 1s ease-in-out;
+   cursor: pointer;
+   border-radius: 6px;
+}
+/* img{
+    float: right;
+    width: 300px;
+    height: 400px;
+} */
+.logo>img{
+    position:absolute;
+    right: 0px;
+    top: -20px;
+    margin-top: 20px;
+   display:inline;
+    width: 30px;
+    height: 40px;
+    background-color: rgb(131, 128, 125);
+}
+.logo-response>img{
+    display: none;
+}
+@media screen and (max-width: 700px) {
+    .logo-response>img{
+        display:block;
+        float: left;
+        position:fixed;
+        left:35px;
+        top: 90px;
+        width: 30px;
+    height: 40px;
+    transition: 1s;
+      z-index:100;
+      mix-blend-mode: multiply;
+    }
+    .logo>img{
+        display:none;
+    }
+}
+
+
+.temp{
+    max-width: 1400px;
+    height: 100px;
+    margin-left: 20px;
+    background-color: rgb(254, 252, 249);
+    margin-top: 50px;
+    
+    box-shadow: 1px 1px 2px 2px grey;
+}
+.temp> h4{
+    position: absolute;
+    left: 90px;
+    top: 45px;
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px  black;
+    font-size: x-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.sample1 > img{
+    text-align: center;
+    position: absolute;
+    max-width: 700px;
+    max-height: 500px;
+    margin-top: 50px;
+    margin-left: 25%;
+     box-shadow:  rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+ /* @media screen and (max-width: 1300px) { 
+     .sample1 > img{
+        
+        max-width: 600px;
+        max-height: 500px;
+        
+        
+    }  */
+
+.temp-blue{
+   position: absolute;
+  background-color: rgb(32, 107, 247);
+  max-width: 70%;
+  max-height:50px;
+  top: 760px;
+ right: 100px;
+ left: 200px;
+ padding-bottom: 20px;
+}
+
+.temp-blue > p {
+    padding-left: 30px;
+    color: rgb(226, 224, 224);
+}
+@media screen and (max-width: 700px) {
+    .temp-blue{
+        max-width: 70%;
+        max-height: 190px;
+        
+    }
+    .temp-blue > p{
+        line-height: 22px;
+        margin: 5px;
+        padding: 4px;
+    }
+
+}
+
+
+
+.para {
+    position: absolute;
+    max-width: 600px;
+    max-height: 1800px;
+    top: 860px;
+    left: 200px;
+    margin-right: 20px;
+}
+@media screen and (max-width:992px){
+    .para{
+       left:50px;
+        max-width: 500px;
+    max-height: 1900px;
+    transition: 0.3s;
+    }
+}
+@media screen and (max-width:1300px){
+    .para{
+        left:30px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .para{
+        left:25px;
+        top:960px;
+        max-width: 450px;
+    max-height: 2000px;
+    transition: 0.3s;
+    /* line-height: 25px; */
+    }
+}
+
+
+.para > h6{
+    font-size: large;
+}
+
+.para > h3{
+    font-size: x-large;
+}
+.para > quote{
+    font-size: x-large;
+    color:rgb(205, 200, 200);
+    margin-bottom: 50px;
+}
+@media screen and (max-width: 700px){
+    .para>h6{
+        font-size: medium;
+    }
+    .para>h3{
+        font-size: larger;
+    }
+    .para > quote{
+        font-size: larger;
+
+}
+}
+.author{
+    position: absolute;
+    max-width: 270px;
+    height: 200px;
+    border: 1px solid black;
+    right: 255px;
+    top: 880px;
+}
+@media screen and (max-width: 1400px){
+    .author{
+        right:220px;
+    }
+}
+@media screen and (max-width: 1300px){
+    .author{
+        right:170px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .author{
+        right:130px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .author{
+        right:100px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .author{
+        right:50px;
+    }
+}
+@media screen and (max-width: 992px){
+    .author{
+        right:15px;
+        top: 900px;
+    }
+}
+@media screen and (max-width: 800px){
+    .author{
+        right:100px;
+        top: 3500px;
+    }
+}
+
+
+
+.author > img{
+   width: 270px;
+   height: 200px;
+}
+
+.author > p{
+    width: 270px;
+    line-height: 30px;
+}
+.author > a{
+    cursor: pointer;
+    color:rgb(3, 3, 255);
+    font-size: large;
+}
+
+.author > input{
+    width: 260px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: medium;
+}
+.author> button{
+   margin-left: 100px;
+   border-radius: 5px;
+   background-color: cornflowerblue;
+   color:rgb(254, 252, 249)
+}
+.social {
+    margin-top: 50px;
+}
+.social > img {
+ float: left;
+ position: block;
+ width: 30px;
+ height: 30px;
+ border-radius: 4px;
+ margin-right: 10px;
+ 
+}
+.social> h5 {
+   font-weight: bold;
+   font-size: large;
+
+}
+.recommend{
+    padding-top: 70px;
+}
+.recommend > h5{
+    font-size: large;
+}
+.recommend > a> img{
+    width: 250px;
+    height: 250px;
+}
+
+.sample2{
+    padding-top: 50px;
+   height: 700px;
+}
+
+.sample2 > h4{
+    font-size: x-large;
+    
+}
+
+.sample2 > img {
+    max-width: 700px;
+    height: 500px;
+    box-shadow:   rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;;
+}
+
+@media screen and (max-width: 1000px){
+    .sample2 > img{
+        max-width:500px;
+        height:400px;
+    }
+}
+@media screen and (max-width: 700px){
+    .sample2 > img{
+        max-width:400px;
+        height:300px;
+    }
+}
+
+.para2 > h5 {
+    font-size: large;
+}
+.para2 >a> button{
+    width: 100px;
+    height: 40px;
+    color: whitesmoke;
+    background-color: rgb(56, 102, 10);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.para2 >a> button:hover{
+    background-color: rgb(3, 56, 3);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+
+
+footer> .footer{
+    border: 1px solid black;
+    position: absolute;
+    
+    top:3300px;
+    bottom: 0px;
+    /* margin-top: 15in; */
+    background-color:black;
+    width: 95%;
+    height: 100px;
+    color:rgb(255, 255, 255);
+    padding-top: 50px;
+
+}
+@media screen and (max-width: 800px){
+    footer> .footer{
+        top:5100px;
+    }
+}
+footer > .footer > h3 {
+    display: inline;
+    padding: 20px;
+    margin: 80px;
+    float:inline-start;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    text-shadow: 1px 1px 0.6px  white;
+    font-size: x-large;
+}
+footer > .footer > h5{
+    margin: 15px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-left: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    float: right;
+    
+}
+@media screen and (max-width:1300px){
+    footer > .footer > h3{
+     padding: 10px;
+    }
+    footer > .footer > h5{
+      margin-top:23px;
+    }
+}
+@media screen and (max-width:1100px){
+    footer > .footer > h3{
+     padding-top: 2px;
+     padding-right: 3px;
+     margin:50px;
+    }
+}
+
+@media screen and (max-width:992px){
+    footer > .footer > h3{
+     padding-top: 2px;
+     padding-right: 3px;
+     margin:30px;
+    }
+}
+@media screen and (max-width:700px){
+    footer > .footer > h3{
+     padding-top: 2px;
+     padding-right: 3px;
+     margin:5px;
+    }
+}
