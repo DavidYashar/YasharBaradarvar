@@ -1,21 +1,10 @@
 <?php
-if($_SERVER["REQUEST_METHOD"]=="POST" && isset($_POST["submit"])){
-  $conn = mysqli_connect('localhost', 'root', '', 'test1') or die("invalid connect: ".mysqli_connect_error());
-  if(isset($_POST['name'])&& isset($_POST['age'])&& isset($_POST['email'])&& isset($_POST['bgroup'])){
-    $name = $_POST['name'];
-    $age = $_POST['age'];
-    $email = $_POST['email'];
-    $bgroup = $_POST['bgroup'];
+define("SERVER", 'sql313.epizy.com');
+define("USERNAME", 'epiz_33449875');
+define("PASSWORD", 'esCpopM1MME');
+define("DATABASE", 'epiz_33449875_moving');
 
-    $sql = "INSERT INTO `donate`(`name`, `age`, `email`, `bgroup`) VALUES('$name', '$age', '$email', '$bgroup')";
+$conn = mysqli_connect(SERVER, USERNAME, PASSWORD, DATABASE);
 
-    $query = mysqli_query($conn, $sql);
-
-    if($query){
-      echo "data entered successfully";
-    }else{
-      echo "error occoured";
-    }
-  }
-}
 ?>
+
