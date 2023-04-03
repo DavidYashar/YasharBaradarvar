@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    /* padding: 10px; */
+    margin: 10px;
+   
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+input{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+form>.main-items>.label{
+    margin-right: 50px;
+    
+}
+form>.main-items>.label1{
+    margin-right: 37px;
+   
+}
+form>.main-items>.label2{
+    margin-right: 27px;
+   
+}
+form>.main-items>input{
+    margin-left: 20px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.select{
+    margin-top: 30px;
+    margin-left:5px;
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 20px;
+    }
+.typeSwitcher{
+    /* border: 2px solid black; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 400px;
+    max-height: 400px;
+
+
+}
+.typeSwitcher>#form-book{
+    /* border: 1px solid red; */
+    position: fixed;
+    top: 360px;
+    
+}
+.typeSwitcher>#form-furniture{
+    /* border: 1px solid red; */
+    position: fixed;
+    top: 360px;
+    
+}
+.typeSwitcher>#form-dvd{
+    /* border: 1px solid red; */
+    position: fixed;
+    top: 360px;
+    
+}
+/* form{
+    border-bottom: 2px solid black;
+
+} */
+form>.head{
+    border-bottom:2px solid black;
+}
+form>section{
+    
+    
+    border-width: 90%;
+    margin: 10px;
+    width: 100%;
+    display:flex;
+    justify-content:space-between;
+}
+form>section>.header{
+    
+    display: flex;
+    order: 1;
+    margin-right: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+form>section>.buttons>.save{
+   margin-right: 20px;
+   border: 3px solid black;
+   border-radius: 10%;
+   font-size: large;
+   padding: 10px;
+   font-weight:bolder;
+   cursor: pointer;
+}
+
+form>section>.buttons>.cancel{
+    margin-right: 20px;
+    border:3px solid black;
+    border-radius: 5%;
+    font-size: large;
+    padding: 10px;
+    font-weight:bolder;
+    cursor: pointer;
+    text-decoration: none;
+ }
+form>section>.header{
+   order: 0;
+   font-size:xx-large;
+}
+/* 
+#return{
+    position:fixed;
+
+    bottom: 100px;
+} */
