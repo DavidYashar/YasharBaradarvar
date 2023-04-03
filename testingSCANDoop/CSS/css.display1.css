@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+form>section{
+    border-bottom: 3px solid rgb(19, 16, 16);
+    margin: 10px;
+    width: 100%;
+    display:flex;
+    justify-content:space-between;
+}
+form>section>.buttons{
+    display: flex;
+    order: 1;
+    margin-right: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+form>section>.buttons>.add{
+   margin-right: 20px;
+   border: 3px solid black;
+   border-radius: 10%;
+   font-size: large;
+   padding: 10px;
+   font-weight:bolder;
+}
+
+form>section>.buttons>.Submit{
+    margin-right: 10px;
+    border:3px solid black;
+    border-radius: 5%;
+    font-size: large;
+    padding: 10px;
+    font-weight:bolder;
+    cursor: pointer;
+ }
+form>section>.header{
+   order: 0;
+   font-size:xx-large;
+}
+form:not(.Submit){
+    border-bottom: 4px solid black;
+    max-width: 1500px;
+    width: 90%;
+    /* margin-bottom: 200px; */
+    margin:  10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: auto;
+}
+.product_show{
+    
+ max-width: 300px;
+ flex:1 2 300px;
+ text-align: center;
+ height: 200px;
+ border: 3px solid black;
+ margin: 20px;
+}
+button{
+    text-decoration: none;
+}  
