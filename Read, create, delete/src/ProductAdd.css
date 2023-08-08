@@ -1,0 +1,123 @@
+.ProductAdd{
+    margin: 40px;
+    
+}
+
+.form{
+    /* background-color: aqua;  */
+    position: absolute;
+    width:600px;
+    height: 300px;
+  text-align: left;
+  padding-left: 40px;
+}
+.cancel{
+    right: 180px;
+    text-decoration: none;
+    color: black;
+}
+.form > input{
+    width: 270px;
+}
+
+.form > label{
+    /* border: 2px solid rgb(0, 0, 0); */
+    max-width: 30px;
+    padding-right: 5px;
+    font-size: larger;
+    padding-top: 5px;
+}
+
+#price{
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 25px;
+    margin-top: 20px;
+    height: 30px;
+}
+ #name{
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 30px;
+}
+
+#SKU{
+    border: 2px solid rgb(21, 1, 1);
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 30px;
+}
+
+ .typeSwitcher{
+    padding-top: 50px;
+  
+    font-size: larger;
+}
+
+ select{
+    margin-left: 20px;
+    height: 30px;
+    font-size: large;
+    width: 150px;
+}
+/* .ProductAdd > div{
+    background-color: aqua;
+} */
+
+.furniture{
+    position: absolute;
+    top: 400px;
+    height: 50px;
+   
+    /* border: 2px solid red; */
+}
+.furniture input{
+    height: 25px;
+    margin-right: 10px;
+    margin-left: 3px;
+   width: 120px;
+}
+
+
+
+.dvd{
+    position: absolute;
+    left: 170px;
+    top: 400px;
+    height: 50px;
+   
+    /* border: 2px solid red; */
+}
+.dvd input{
+    height: 25px;
+    margin-right: 10px;
+    margin-left: 3px;
+    width: 200px;
+}
+
+
+
+
+.book{
+    position: absolute;
+    top: 400px;
+    left: 165px;
+    height: 50px;
+    /* border: 2px solid red; */
+}
+.book input{
+    height: 25px;
+    margin-right: 10px;
+    margin-left: 3px;
+    width: 200px;
+}
+
+#resultAdd{
+    /* background-color: aqua; */
+    position: absolute;
+    top: 500px;
+    left: 200px;
+    color: rgb(252, 252, 252);
+    text-shadow: 2px 3px 3px rgb(0, 0, 0);
+    font-size:large
+}

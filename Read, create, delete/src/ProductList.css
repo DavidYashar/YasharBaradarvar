@@ -1,0 +1,33 @@
+
+
+button{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    width: 130px;
+    height: 40px;
+    border-radius: 5%;
+    font-size:medium;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .add{
+    background-color: aliceblue;
+    border-radius: 5px;
+ text-decoration: none;
+color: rgb(0, 0, 0);
+border: 2px solid black;
+position: absolute;
+/* font-size:medium; */
+font-weight: bold;
+right: 190px;
+top: 41px;
+width: 40px;
+height: 31px;
+border-radius: 5%;
+text-align: center;
+padding-top: 5px;
+}
+ 
