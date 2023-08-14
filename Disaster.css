@@ -1,0 +1,29 @@
+.disaster{
+    height:2000px;
+}
+
+.video-container{
+    /* border: 2px solid blue; */
+    position: absolute;
+    top: 300px;
+    left: 20%;
+    box-shadow: rgba(255, 255, 255, 0.15) 0px 48px 100px 0px;
+}
+
+/* #disasterFooter{
+    border-top: 3px solid black;
+    margin-top: auto;
+   position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: #fdfdfd;
+    
+    text-align: center;
+    top: 2200px;
+    bottom: 0;
+    left: 0;
+} */
+
+.active{
+    background-color: rgb(255, 0, 60);
+}

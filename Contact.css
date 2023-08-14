@@ -1,0 +1,14 @@
+.ContactInfo{
+    position: absolute;
+    top:500px;
+    font-size: xx-large;
+    left:10%;
+    font-family: cursive;
+    border-top: 2px solid red;
+    color: aliceblue;
+}
+
+.homeButton{
+    text-decoration: none;
+    color: aqua;
+}

@@ -1,0 +1,112 @@
+.video-container{
+    /* border: 2px solid blue; */
+    position: absolute;
+    top: 300px;
+    left: 20%;
+    box-shadow: rgba(255, 255, 255, 0.15) 0px 48px 100px 0px;
+}
+
+.telegraph{
+    position: absolute;
+    border-right: 2px solid rgba(255, 0, 0, 0.563);
+    top: 310px;
+    /* display:flex; */
+     border-radius: 5px;
+     right:10%; 
+    width: 1400px;
+    text-align: center;
+    /* margin-left: 300px; */
+    color:beige;
+}
+
+.telegraph > img{
+    border-radius: 5px;
+    width: 700px;
+    height:1000px;
+    margin-right: 300px;
+    opacity: 0;
+    box-shadow: rgba(254, 39, 1, 0.103) 0px 54px 55px, rgba(255, 30, 0, 0.12) 
+    0px -12px 30px, rgba(255, 4, 0, 0.12) 0px 4px 6px,
+     rgba(248, 0, 0, 0.062) 0px 12px 13px, rgba(2, 255, 238, 0.09) 0px -3px 5px;
+   border-bottom: 2px rgba(249, 0, 0, 0.192);
+}
+
+.telegraph > #telegraph {
+    /* border: 2px solid  aqua; */
+    width: 300px;
+    position:absolute;
+    top: -10px;
+    right: 180px;
+    z-index: 10;
+    font-size: x-large;
+    border-radius: 5px;
+}
+
+.telegraph > #telegraph-info{
+    border-left: 2px solid rgba(255, 0, 0, 0.308);
+    position:absolute;
+    top: 30px;
+    right:100px;
+    width: 350px;
+    height: 550px;
+    text-align: justify;
+    display:inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+
+
+
+
+.info-home > h4{
+    font-size: larger;
+    border-top: 3px solid greenyellow;
+}
+.info-home{
+    position:absolute;
+    top: 800px;
+    color:azure;
+    left: 20%;
+    width: 900px;
+    text-align: justify;
+    display:inline-block;
+    padding: 5px;
+}
+.info-home > p{
+    font-size: large;
+}
+
+
+.wild-location{
+    position:absolute;
+    top: 1200px;
+    padding-top: 10px;
+    border-top: 2px solid rgb(0, 248, 248);
+    color:aliceblue;
+    height: 600px;
+    width: 1200px;
+    left:20%;
+    
+}
+
+.wild-location > img{
+    position:absolute;
+    width:500px;
+    height: 500px;
+    right: 25%;
+
+}
+
+.wild-location p {
+    position:absolute;
+    border-bottom: 2px solid rgb(0, 255, 0);
+    width: 300px;
+    height:  600px;
+    right:74%;
+    text-align: justify;
+    display:inline-block;
+    padding: 5px;
+    font-size: large;
+}

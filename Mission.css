@@ -1,0 +1,37 @@
+.ourMission{
+    border: 2px solid white;
+    color:aliceblue;
+    position: absolute;
+    top:400px;
+    left:17%;
+    width:900px;
+    height:500px;
+    right:10%;
+    font-family: cursive;
+    font-size: larger;
+}
+
+.ourMission h2{
+    font-size: xx-large;
+}
+
+.ourMission p{
+    text-align: justify;
+    display:inline-block;
+    padding: 5px;
+}
+
+.ourMission #donate{
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.licence{
+   
+    left:20%;
+    right:5%;
+    position:absolute;
+    top:800px;
+    width:800px;
+    height: 850px;
+}
