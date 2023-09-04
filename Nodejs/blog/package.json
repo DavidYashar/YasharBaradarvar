@@ -2,7 +2,7 @@
   "name": "node-net",
   "version": "1.0.0",
   "description": "testing",
-  "main": "Server.js",
+  "main": "app.js",
   "directories": {
     "doc": "docs"
   },
