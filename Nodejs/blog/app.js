@@ -1,7 +1,7 @@
 const express = require('express');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
-
+const PORT = process.env.PORT || 3030;
 const blogRoutes = require('./routes/blogRoutes');
 
 //express app
@@ -10,7 +10,7 @@ const app = express();
 //connect to MongoDB
 const DB = 'mongodb+srv://Yashar:33456Yashar@cluster0.wcrhxar.mongodb.net/?retryWrites=true&w=majority';
 mongoose.connect(DB)
-.then((result)=> app.listen(3000))
+.then((result)=> app.listen(PORT))
 .catch((err)=> console.log(err));
 
 
